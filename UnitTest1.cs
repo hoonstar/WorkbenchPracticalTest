@@ -9,7 +9,7 @@ using System.Threading;
 namespace WorkbenchPracticalTest
 {
     [TestClass]
-    public class TestCases
+    public class CreatePurchaseRequisition
     {
         IWebDriver driver;
 
