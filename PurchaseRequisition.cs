@@ -38,16 +38,16 @@ namespace WorkbenchPracticalTest
             if (driver != null)
             {
                 //goes to website
-                driver.Navigate().GoToUrl("https://web.workbench.co.nz/WorkbenchTestV4/Workbench.aspx#/PurchaseRequisitions/DetailMobi.aspx/Create");
+                driver.Navigate().GoToUrl("websiteURL"); //***removed the actual website link for privacy***
 
                 //enters username
                 IWebElement username = driver.FindElement(By.Id("userName"));
-                username.SendKeys("demo1");
+                username.SendKeys("username"); //***removed the actual username for privacy***
                 username.SendKeys(Keys.Enter);
 
                 //enters password
                 IWebElement password = driver.FindElement(By.Id("userPassword"));
-                password.SendKeys("test");
+                password.SendKeys("password"); //***removed the actual password for privacy***
                 password.SendKeys(Keys.Enter);
             }
 
